@@ -13,4 +13,7 @@ public class Person {
 	public String getNachname() {
 		return nachname;
 	}
+	public void printName() {
+		System.out.printf("Nachname: %s und Vorname: %s", getNachname(), getVorname())
+	}
 }
