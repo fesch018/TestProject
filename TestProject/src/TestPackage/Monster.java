@@ -13,4 +13,7 @@ public class Monster {
 	public int getAnzahlPersonen() {
 		return anzahlPersonen;
 	}
+	public int WasGeht() {
+		return 0;
+	}
 }
