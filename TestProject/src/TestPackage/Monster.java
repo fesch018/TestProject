@@ -16,4 +16,7 @@ public class Monster {
 	public int WasGeht() {
 		return 0;
 	}
+	public int w() {
+		return 1;
+	}
 }
