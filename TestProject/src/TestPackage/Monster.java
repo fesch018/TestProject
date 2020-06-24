@@ -13,5 +13,7 @@ public class Monster {
 	public int getAnzahlPersonen() {
 		return anzahlPersonen;
 	}
-	
+	public String toString() {
+		return this.name + " hat " + this.anzahlPersonen + " Menschen gefressen"; 
+	}
 }
