@@ -6,6 +6,9 @@ public class Test {
 		Monster boogeyman = new Monster("Boogeyman", 3);
 		System.out.println(boogeyman);
 		
-
 	}
+	public static int berechne() {
+		return 0;
+	}
+		
 }
