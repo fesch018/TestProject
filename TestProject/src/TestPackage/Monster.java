@@ -4,9 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Monster {
-	String name;
-	int anzahlPersonen;
-	List<Person> gefressenePersonen;
+	private String name;
+	private int anzahlPersonen;
+	private List<Person> gefressenePersonen;
 	
 	public Monster(String name, int anzahlPersonen) {
 		this.name = name;

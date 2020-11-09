@@ -10,6 +10,7 @@ public class Test {
 		boogeyman.einfügen(p1);
 		boogeyman.einfügen(p2);
 		
+		
 		System.out.println(boogeyman);
 		
 	}

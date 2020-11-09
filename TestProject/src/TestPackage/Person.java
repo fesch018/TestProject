@@ -2,8 +2,8 @@ package TestPackage;
 
 public class Person {
 	
-	String vorname;
-	String nachname;
+	private String vorname;
+	private String nachname;
 	
 	public Person(String vorname, String nachname) {
 		this.vorname = vorname;
