@@ -5,22 +5,20 @@ import java.util.List;
 
 public class Monster {
 	private String name;
-	private int anzahlPersonen;
 	private List<Person> gefressenePersonen;
 	
-	public Monster(String name, int anzahlPersonen) {
+	public Monster(String name) {
 		this.name = name;
-		this.anzahlPersonen = anzahlPersonen;
 		gefressenePersonen = new LinkedList<Person>();
 	}
 	public String getName() {
 		return name;
 	}
 	public int getAnzahlPersonen() {
-		return anzahlPersonen;
+		return gefressenePersonen.size();
 	}
 	public String toString() {
-		return this.name + " hat " + this.anzahlPersonen + " Menschen gefressen"; 
+		return this.name + " hat " + getAnzahlPersonen() + " Menschen gefressen"; 
 	}
 	public void einfügen(Person p) {
 		gefressenePersonen.add(p);
